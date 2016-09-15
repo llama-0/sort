@@ -5,7 +5,7 @@ public static class Program {
         int n = a.Length, m = b.Length;
         int i = 0, j = 0;
         for (int k = 0; k < m + n; k++) {
-            if (i < n && a[i] < b[j]) {
+            if (j >= m || i < n && a[i] < b[j]) {
                 c [k] = a [i];
                 i++;
             } else {
@@ -33,20 +33,20 @@ public static class Program {
             a[s + i] = w[i];
     }
 
-    /// <summary>
-    /// Merges the sort.
-    /// </summary>
-    /// <param name="a">The alpha component.</param>
     public static void MergeSort(int[] a) {
         MergeSort(a, 0, a.Length);
     }
 
-    /// <summary>
-    /// The entry point of the program, where the program control starts and ends.
-    /// </summary>
-    /// <param name="args">The command-line arguments.</param>
+    public static void PrintArray(int[] a) {
+        foreach (int i in a) {
+            Console.Write($"{i} ");
+        }
+    }
+
     public static void Main (string[] args) {
-        int[] a = new int[] { 1, 4, 2, 6, 7, 4, 8, 9, 4, 6, 5, 3 };
+        int[] a = new int[] { 6, 5, 2, 1, 8, 3};
+        PrintArray(a);
         MergeSort(a, 0, a.Length);
+        PrintArray(a);
     }
 }
