@@ -6,11 +6,9 @@ public static class Program {
         int i = 0, j = 0;
         for (int k = 0; k < m + n; k++) {
             if (j >= m || i < n && a[i] < b[j]) {
-                c [k] = a [i];
-                i++;
+                c[k] = a[i++];
             } else {
-                c[k] = b[j];
-                j++;
+                c[k] = b[j++];
             }
         }
     }
@@ -25,7 +23,7 @@ public static class Program {
         int[] v = new int[n2];
         int[] w = new int[n];
         for (int i = 0; i < n1; i++)
-            u[i] = a[s + n1];
+            u[i] = a[s + i];
         for (int i = 0; i < n2; i++)
             v[i] = a[s + n1 + i];
         Merge(u, v, w);
