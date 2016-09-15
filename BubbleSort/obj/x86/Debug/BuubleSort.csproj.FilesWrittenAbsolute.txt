@@ -1,0 +1,5 @@
+/main/code/sort/BuubleSort/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/main/code/sort/BuubleSort/bin/Debug/BuubleSort.exe.mdb
+/main/code/sort/BuubleSort/bin/Debug/BuubleSort.exe
+/main/code/sort/BuubleSort/obj/x86/Debug/BuubleSort.exe
+/main/code/sort/BuubleSort/obj/x86/Debug/BuubleSort.exe.mdb

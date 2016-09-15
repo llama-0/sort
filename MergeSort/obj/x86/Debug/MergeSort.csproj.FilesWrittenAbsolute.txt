@@ -1,0 +1,5 @@
+/main/code/sort/MergeSort/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/main/code/sort/MergeSort/bin/Debug/MergeSort.exe.mdb
+/main/code/sort/MergeSort/bin/Debug/MergeSort.exe
+/main/code/sort/MergeSort/obj/x86/Debug/MergeSort.exe
+/main/code/sort/MergeSort/obj/x86/Debug/MergeSort.exe.mdb
