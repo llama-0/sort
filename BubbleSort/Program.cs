@@ -1,6 +1,6 @@
 ﻿using System;
 
-    public static class Program {
+public static class Program {
     private static void Bubble(int[] a) {
         int n = a.Length;
         for (int i = 0; i < n -1; i++) {
@@ -14,7 +14,7 @@
 
     private static void BubbleSort(int[] a, int n) {
         for (int i = n; i > 1; i--) {
-            Bubble(a);
+           Bubble(a);
         }
     }
 
@@ -25,8 +25,8 @@
     }
 
     public static void Main (string[] args) {
-    int[] a = new int[] {1, 2, 4, 5, 6, 8, 3};
-    BubbleSort(a, a.Length);
-    PrintArray(a);
+        int[] a = new int[] {1, 2, 4, 5, 6, 8, 3};
+        BubbleSort(a, a.Length);
+        PrintArray(a);
     }
 }
